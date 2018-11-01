@@ -726,3 +726,129 @@ INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO _internal.py:88  * Restarting with stat
 WARNING _internal.py:88  * Debugger is active!
 INFO _internal.py:88  * Debugger PIN: 220-759-178
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:21:11] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:21:11] "GET /images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:21:11] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:29:31] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:29:32] "GET /..news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:29:32] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:32:04] "GET /news/1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/flasknews/info/modules/home/views.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88  * Detected change in '/home/python/Desktop/flasknews/info/__init__.py', reloading
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:37:56] "GET / HTTP/1.1" 500 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:37:56] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:37:56] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:37:56] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:37:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:37:58] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:40:33] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:40:33] "GET /..news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:40:33] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:49:41] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:49:41] "GET /..news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:49:43] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:49:56] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:49:56] "GET /..news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:49:57] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:50:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:50:20] "GET /..news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:50:21] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:51:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:51:14] "GET /news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:51:16] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:52:19] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:52:20] "GET /home/python/Desktop/flasknews/info/static/news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:52:20] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:53:43] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:53:44] "GET /..static/news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:53:44] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:55:53] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:55:53] "GET /..static/news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:55:53] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:13] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:15] "GET /..static/news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:15] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:45] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:45] "GET /static/news/css/reset.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:45] "GET /static/news/css/main.css HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:45] "GET /static/news/js/jquery-1.12.4.min.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:45] "GET /static/news/js/main.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /static/news/js/index.js HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /static/news/images/logo.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /static/news/images/news_pic.jpg HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /static/news/images/person.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /..static/news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /static/news/images/pic_code.png HTTP/1.1" 304 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 18:58:46] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 19:02:18] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 19:02:19] "GET /static/news/images/person01.png HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 19:02:19] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 19:03:08] "GET / HTTP/1.1" 200 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 19:03:08] "GET /..static/news/images/person01.png HTTP/1.1" 404 -
+INFO _internal.py:88 127.0.0.1 - - [01/Nov/2018 19:03:09] "GET /get_news_list?cid=1&cur_page=1 HTTP/1.1" 404 -
+INFO _internal.py:88  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:88  * Restarting with stat
+WARNING _internal.py:88  * Debugger is active!
+INFO _internal.py:88  * Debugger PIN: 556-821-044

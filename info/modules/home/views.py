@@ -1,6 +1,5 @@
 import logging
 from flask import current_app, render_template, session
-
 from info.models import User, News
 from info.modules.home import home_blu
 
@@ -19,18 +18,19 @@ def index():
         except BaseException as e:
             current_app.logger.error(e)
 
-    # news_list =[]
-    # try:
-    #     news_list = News.query.order_by(News.clicks.desc()).limit(10).all()
-    # except BaseException as e:
-    #     current_app.aogger.error(e)
-    #
-    # news_list = [News.to_dict() for News in news_list]
+    # 按照点击量查询前十条新闻数据
+    news_list =[]
+    try:
+        news_list = News.query.order_by(News.clicks.desc()).limit(10).all()
+    except BaseException as e:
+        current_app.aogger.error(e)
+
+    news_list = [news.to_dict() for news in news_list]
 
     # 将模型转化为字典
     user =user.to_dict() if user else None
 
-    return render_template("index.html",user=user)
+    return render_template("index.html",user=user, news_list=news_list)
 
 
 @home_blu.route('/favicon.ico')
