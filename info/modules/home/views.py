@@ -1,25 +1,16 @@
-from flask import current_app, render_template, session, request, jsonify
+from flask import current_app, render_template, request, jsonify, g
 from info.constants import HOME_PAGE_MAX_NEWS
-from info.models import User, News, Category
+from info.models import News, Category
 from info.modules.home import home_blu
+from info.utils.common import user_login_data
 from info.utils.response_code import RET, error_map
 
 
 # 2.使用蓝图注册路由
-
-
 @home_blu.route('/')
 def index():
-    # 在根路由中判断用户是否登陆
-    user_id = session.get("user_id")
 
-    user = None
-    if user_id:
-        # 查询用户信息
-        try:
-            user = User.query.get(user_id)
-        except BaseException as e:
-            current_app.logger.error(e)
+    user_login_data()
 
     # 按照点击量查询前十条新闻数据
     news_list =[]
@@ -30,7 +21,6 @@ def index():
 
     news_list = [news.to_dict() for news in news_list]
 
-
     # 查询所有的分类数据，后端模板渲染
     categories = []
     try:
@@ -39,7 +29,7 @@ def index():
         current_app.logger.error(e)
 
     # 将模型转化为字典
-    user =user.to_dict() if user else None
+    user =g.user.to_dict() if g.user else None
 
     return render_template("index.html",user=user, news_list=news_list, categories=categories)
 
