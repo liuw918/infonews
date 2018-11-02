@@ -1,6 +1,6 @@
 from flask import current_app, render_template, session, request, jsonify
 from info.constants import HOME_PAGE_MAX_NEWS
-from info.models import User, News
+from info.models import User, News, Category
 from info.modules.home import home_blu
 from info.utils.response_code import RET, error_map
 
@@ -30,10 +30,18 @@ def index():
 
     news_list = [news.to_dict() for news in news_list]
 
+
+    # 查询所有的分类数据，后端模板渲染
+    categories = []
+    try:
+        categories = Category.query.all()
+    except BaseException as e:
+        current_app.logger.error(e)
+
     # 将模型转化为字典
     user =user.to_dict() if user else None
 
-    return render_template("index.html",user=user, news_list=news_list)
+    return render_template("index.html",user=user, news_list=news_list, categories=categories)
 
 
 @home_blu.route('/favicon.ico')

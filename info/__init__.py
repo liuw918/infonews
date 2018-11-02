@@ -48,12 +48,15 @@ def create_app(config_type):
     # 初始化迁移器
     Migrate(app, db)
 
-    from info.modules.home import home_blu
     # 3.注册蓝图
+    from info.modules.home import home_blu  # 首页
     app.register_blueprint(home_blu)
 
-    from info.modules.passport import passport_blu
+    from info.modules.passport import passport_blu  # 登陆
     app.register_blueprint(passport_blu)
+
+    from info.modules.news import news_blu  # 新闻详情页
+    app.register_blueprint(news_blu)
 
     # 配置日志
     setup_log()
